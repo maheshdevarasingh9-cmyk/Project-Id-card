@@ -1,0 +1,48 @@
+{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkgrey;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    background-color: aliceblue;
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+img{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 14px;
+    color: aqua;
+    margin-bottom: 10px;
+}
+.details  p a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+}
+.buttons a{
+    text-decoration: none;
+    background-color: rgb(235, 16, 34);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.buttons a:hover{
+    background-color: orange;
+}
